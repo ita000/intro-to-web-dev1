@@ -1,25 +1,17 @@
-/* div {
-width: 100px;
-hight: 100px;
-background: red;
-transiton-property: width, height;
-transiton-duration: 2s;
-transiton-timing-function: linear;
-transiton-delay: 1s;
-} */
+p::first-line {
+  color: blue;
+}
 
+#name::first-letter {
+  color: blueviolet;
+}
 
+#before::before {
+  content: ">>";
+  color: aqua;
+}
 
-
-
-div {
-    width: 100px;
-    height: 100px;
-    background: rgb(25, 11, 216);
-    transition: width 2s linear 1s;
-    }
-    
-    div:hover {
-        width: 1000px;
-        height: 600px;
-    }
+#after::after {
+  content: "<<";
+  color: cornflowerblue;
+}
